@@ -12,3 +12,4 @@ model.predict(x_test)
 with open('model.pkl','wb') as f:
     pickle.dump(model,f)
 print(f'the model dump is done')
+print('hi i am taha')
